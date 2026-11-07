@@ -81,7 +81,23 @@ Voice is off by default. When enabled, FarmFresh uses Windows' built-in `System.
 
 ## Screenshots
 
-The project cover above is included in `assets/cover.jpeg`. No cooking-screen screenshot was present in the repository.
+### Recipe selection
+
+Browse the three built-in recipes and their preparation times.
+
+![FarmFresh recipe selection screen](assets/recipe-selection.png)
+
+### Ingredient checklist
+
+Review ingredient quantities and mark ingredients as prepared before cooking.
+
+![FarmFresh ingredients checklist](assets/ingredients.png)
+
+### Cooking screen
+
+Follow the current cooking step, track recipe progress, and use the timer and gesture controls.
+
+![FarmFresh cooking screen](assets/cooking-screen.png)
 
 ---
 
