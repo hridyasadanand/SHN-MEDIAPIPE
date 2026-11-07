@@ -1,61 +1,66 @@
 # SHN-MEDIAPIPE
+
 ![Project Cover](assets/cover.jpeg)
-#  [Your Project Name]
 
-### 💡 What's the idea?
-[Tell us what you built and what it does. Keep it short!]
+# FarmFresh - Touchless Kitchen Assistant
 
-### 🌐 Check it out!
-- **Live Website:** [Drop your link here / N/A]
-- **GitHub Repo:** [Drop your repository link here]
+### What's the idea?
+FarmFresh is a webcam-based recipe helper for Saturday Hack Night Sprint 01: Beyond Gesture. It uses hand tracking so you can move through a recipe while cooking without touching your keyboard.
 
-### 🛠️ What did you use?
-[Tech stack, tools, frameworks, libraries, etc.]
+### Check it out!
+- **Live Website:** N/A (local webcam application)
+- **GitHub Repo:** [SHN-MEDIAPIPE](https://github.com/hridyasadanand/SHN-MEDIAPIPE)
 
-### 👥 The Humans Behind It
-- [Name – GitHub Username]
-- [Name – GitHub Username]
+### What did you use?
+- Python 3.14.2
+- MediaPipe 1.2.2 Tasks API (`HandLandmarker` video mode)
+- OpenCV 5.0.0.93 and NumPy 2.5.4
 
-### ⚙️ Hardware Corner
-[What hardware did you use? / N/A]
+### The Humans Behind It
+- Add your name and GitHub username here.
 
-### 📸 Show Us What You Built!
-[Add screenshots, photos, GIFs or demo video links here.]
+### Hardware Corner
+- A webcam is required. The app opens camera index 0.
 
-### ✨ Cool Things It Does
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
+### Show Us What You Built!
+- Add screenshots, photos, GIFs, or a demo video link here.
+
+### Cool Things It Does
+- Tracks a hand and draws its landmarks in the webcam view.
+- Open palm: next recipe step.
+- Pinch: previous recipe step.
+- Closed fist: pause or resume.
+- Thumbs up: confirm the current step.
+- Includes a six-step Garden Tomato Pasta recipe and keyboard controls.
+
+## Setup and run
+
+Open PowerShell in the project folder. Activate the existing virtual environment if it is not already active, then install the listed packages and start the app:
+
+```powershell
+.\venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+python farmfresh.py
+```
+
+On first launch, FarmFresh downloads the official `hand_landmarker.task` model into the project folder. An internet connection is needed for this first download. Later launches reuse the model.
+
+## Controls
+
+| Input | Action |
+| --- | --- |
+| Open palm | Next step |
+| Pinch thumb and index finger | Previous step |
+| Closed fist | Pause or resume |
+| Thumbs up | Confirm the current step |
+| `N` | Next step |
+| `P` | Previous step |
+| `Space` | Pause or resume |
+| `C` | Confirm current step |
+| `Q` or `Esc` | Close the app |
+
+Gestures need several consecutive frames and a neutral hand pose before the next gesture can trigger. If the webcam does not open, check camera permissions and confirm that another application is not using it.
 
 ---
 
-**Built with curiosity at Saturday Hack Night 💜**# 🚀 [Your Project Name]
-
-### 💡 What's the idea?
-[Tell us what you built and what it does. Keep it short!]
-
-### 🌐 Check it out!
-- **Live Website:** [Drop your link here / N/A]
-- **GitHub Repo:** [Drop your repository link here]
-
-### 🛠️ What did you use?
-[Tech stack, tools, frameworks, libraries, etc.]
-
-### 👥 The Humans Behind It
-- [Name – GitHub Username]
-- [Name – GitHub Username]
-
-### ⚙️ Hardware Corner
-[What hardware did you use? / N/A]
-
-### 📸 Show Us What You Built!
-[Add screenshots, photos, GIFs or demo video links here.]
-
-### ✨ Cool Things It Does
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
-
----
-
-**Built with curiosity at Saturday Hack Night 💜**
+**Built with curiosity at Saturday Hack Night.**
