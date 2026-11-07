@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Vegetable Stir-Fry",
+    "preparation_minutes": 20,
+    "ingredients": [
+      {"name": "Broccoli", "quantity": "1 small head"},
+      {"name": "Carrot", "quantity": "1 medium"},
+      {"name": "Bell pepper", "quantity": "1"},
+      {"name": "Garlic", "quantity": "2 cloves"},
+      {"name": "Soy sauce", "quantity": "1 tbsp"},
+      {"name": "Vegetable oil", "quantity": "1 tbsp"}
+    ],
+    "steps": [
+      {"instruction": "Wash the vegetables and peel the garlic."},
+      {"instruction": "Cut broccoli, carrot, and bell pepper into similar-size pieces."},
+      {"instruction": "Heat a little oil in a pan over medium-high heat."},
+      {"instruction": "Stir-fry carrot and broccoli until just tender, then add pepper.", "timer_seconds": 180},
+      {"instruction": "Add garlic and soy sauce, toss briefly, and serve hot."}
+    ]
+  },
+  {
+    "name": "Tomato Curry",
+    "preparation_minutes": 30,
+    "ingredients": [
+      {"name": "Tomatoes", "quantity": "4 medium"},
+      {"name": "Onion", "quantity": "1 medium"},
+      {"name": "Chickpeas", "quantity": "1 can (400 g), drained"},
+      {"name": "Garlic", "quantity": "2 cloves"},
+      {"name": "Fresh ginger", "quantity": "1-inch piece"},
+      {"name": "Curry powder", "quantity": "2 tsp"},
+      {"name": "Vegetable oil", "quantity": "1 tbsp"},
+      {"name": "Water", "quantity": "1 cup"}
+    ],
+    "steps": [
+      {"instruction": "Rinse the tomatoes and peel the onion, garlic, and ginger."},
+      {"instruction": "Chop the tomatoes and onion; mince the garlic and ginger."},
+      {"instruction": "Warm oil in a pan and cook the onion until soft."},
+      {"instruction": "Stir in garlic, ginger, and curry powder for 30 seconds."},
+      {"instruction": "Add tomatoes, chickpeas, and water. Simmer until thick.", "timer_seconds": 600},
+      {"instruction": "Taste, adjust seasoning, and serve the curry warm."}
+    ]
+  },
+  {
+    "name": "Vegetable Salad",
+    "preparation_minutes": 15,
+    "ingredients": [
+      {"name": "Lettuce", "quantity": "1 small head"},
+      {"name": "Cucumber", "quantity": "1"},
+      {"name": "Tomatoes", "quantity": "2 medium"},
+      {"name": "Carrot", "quantity": "1 medium"},
+      {"name": "Lemon juice", "quantity": "2 tbsp"},
+      {"name": "Olive oil", "quantity": "1 tbsp"},
+      {"name": "Salt", "quantity": "1/4 tsp"}
+    ],
+    "steps": [
+      {"instruction": "Rinse all vegetables under clean running water and drain well."},
+      {"instruction": "Dice the cucumber and tomatoes; grate the carrot."},
+      {"instruction": "Tear the lettuce into bite-size pieces in a large bowl."},
+      {"instruction": "Whisk lemon juice with olive oil and salt."},
+      {"instruction": "Toss the vegetables with dressing and serve fresh."}
+    ]
+  }
+]
